@@ -51,15 +51,23 @@ Exception Handling: The application includes a robust exception handling mechani
 5.Technologies Used 
 
 Java 21 
+
 Spring Boot 3.3.4 
+
 Spring Security 
+
 Maven 
+
 MySQL Database (for development) 
+
 Lombok (for reducing boilerplate code)
 
-6.Prerequisites 
-Java 17 
-Maven 
+6.Prerequisites
+
+Java 17
+
+Maven
+
 MySQL
 
 Setup and Installation 
@@ -83,6 +91,7 @@ API Documentation
 *Create a Rule Request: http 
 
 POST /rules/create
+
 Content-Type: application/json
 
 {
@@ -102,7 +111,9 @@ Response: json
 
 
 *Evaluate Rules Request: http
+
 POST /rules/evaluate
+
 Content-Type: application/json
 
 {
@@ -141,7 +152,11 @@ Response: json
 Logging The application maintains logs for each action performed, which can be useful for auditing purposes. Log files can be found in the logs directory.
 
 Contributing Fork the repository. 
+
 Create a new branch (git checkout -b feature-branch). 
+
 Make your changes and commit them (git commit -m 'Add new feature').
+
 Push to the branch (git push origin feature-branch). 
+
 Create a new Pull Request.
