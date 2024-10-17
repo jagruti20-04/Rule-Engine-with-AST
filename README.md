@@ -96,7 +96,9 @@ POST /rules/create
 
 Content-Type: application/json
 
+
 {
+
     "name": "AgeRule",
     
     "conditions": {
@@ -104,6 +106,7 @@ Content-Type: application/json
         "operator": ">",
         "value": "18"
     }
+    
 }
 
 Response: json 
@@ -154,16 +157,25 @@ POST /rules/combine
 Content-Type: application/json
 
 {
+
     "rules": [1, 2],  // rule IDs
+    
     "logic": "AND"
+    
 }
+
 
 
 Response: json 
+
 {
+
     "message": "Rules combined successfully.",
+    
     "combinedRuleId": 3
+    
 }
+
 
 
 Logging The application maintains logs for each action performed, which can be useful for auditing purposes. Log files can be found in the logs directory.
