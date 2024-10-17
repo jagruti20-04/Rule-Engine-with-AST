@@ -7,34 +7,49 @@ Features
 1.Create Rules
 
 Endpoint: /rules/create 
+
 Method: POST 
+
 Description: Users can create new rules by providing necessary attributes and conditions. 
+
 Request Body: JSON object with rule details (e.g., name, conditions). Response: Confirmation message with the created rule ID.
 
 2.Evaluate Rules 
 
 Endpoint: /rules/evaluate 
+
 Method: POST 
+
 Description: This feature evaluates the provided rules against given user attributes to determine eligibility. 
+
 Request Body: JSON object with user attributes to evaluate against the existing rules. 
+
 Response: Indicates whether the user is eligible and lists matched rules.
 
 3.Combine Rules 
 
 Endpoint: /rules/combine 
+
 Method: POST 
+
 Description: Users can combine multiple rules to create complex conditions for evaluation. 
+
 Request Body: JSON object with the rules to be combined and the logic for combination (e.g., AND, OR). 
+
 Response: Confirmation message with the combined rule ID.
 
 4.Additional Features
 
 Dynamic Rule Management: Modify existing rules without downtime. 
+
 Custom Logic Support: Implement complex logic using combinations of rules. 
+
 Logging: Comprehensive logging for actions taken within the application, aiding in debugging and auditing.
+
 Exception Handling: The application includes a robust exception handling mechanism to gracefully manage errors and provide meaningful messages to users. This ensures a smoother user experience and better debugging.
 
 5.Technologies Used 
+
 Java 21 
 Spring Boot 3.3.4 
 Spring Security 
@@ -50,6 +65,7 @@ MySQL
 Setup and Installation 
 
 Clone the repository:
+
 git clone <repository-url>
 cd rule-engine
 
