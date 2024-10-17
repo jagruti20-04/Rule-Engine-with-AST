@@ -107,9 +107,13 @@ Content-Type: application/json
 }
 
 Response: json 
+
 {
+
     "message": "Rule created successfully.",
+    
     "ruleId": 1
+    
 }
 
 
@@ -120,18 +124,26 @@ POST /rules/evaluate
 Content-Type: application/json
 
 {
+
     "attributes": {
+    
         "age": 20,
+        
         "country": "USA"
+        
     }
+    
 }
 
 
-Response: 
-json 
+Response: json 
+
 {
+
     "eligible": true,
+    
     "matchedRules": ["AgeRule"]
+    
 }
 
 
