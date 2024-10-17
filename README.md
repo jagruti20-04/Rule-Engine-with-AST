@@ -64,6 +64,7 @@ MySQL Database (for development)
 
 Lombok (for reducing boilerplate code)
 
+
 6.Prerequisites
 
 Java 17
@@ -71,6 +72,7 @@ Java 17
 Maven
 
 MySQL
+
 
 Setup and Installation 
 
