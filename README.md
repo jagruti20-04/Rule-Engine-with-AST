@@ -1,6 +1,8 @@
 AST Rule Engine
 
-Overview The Rule Engine is a flexible and scalable application designed to create, evaluate, and combine rules for determining user eligibility based on various attributes. Built with Spring Boot, it provides a RESTful API that allows users to manage rules effectively.
+Overview 
+
+The Rule Engine is a flexible and scalable application designed to create, evaluate, and combine rules for determining user eligibility based on various attributes. Built with Spring Boot, it provides a RESTful API that allows users to manage rules effectively.
 
 Features
 
@@ -88,7 +90,7 @@ Access the API: The application will be running at http://localhost:8080. You ca
 
 API Documentation
 
-*Create a Rule Request: http 
+Create a Rule Request: http 
 
 POST /rules/create
 
@@ -96,6 +98,7 @@ Content-Type: application/json
 
 {
     "name": "AgeRule",
+    
     "conditions": {
         "attribute": "age",
         "operator": ">",
@@ -110,7 +113,7 @@ Response: json
 }
 
 
-*Evaluate Rules Request: http
+Evaluate Rules Request: http
 
 POST /rules/evaluate
 
@@ -132,8 +135,10 @@ json
 }
 
 
-*Combine Rules Request: http 
+Combine Rules Request: http 
+
 POST /rules/combine
+
 Content-Type: application/json
 
 {
