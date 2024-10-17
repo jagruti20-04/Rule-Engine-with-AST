@@ -28,6 +28,7 @@ Response: Confirmation message with the combined rule ID.
 Dynamic Rule Management: Modify existing rules without downtime. 
 Custom Logic Support: Implement complex logic using combinations of rules. 
 Logging: Comprehensive logging for actions taken within the application, aiding in debugging and auditing.
+Exception Handling: The application includes a robust exception handling mechanism to gracefully manage errors and provide meaningful messages to users. This ensures a smoother user experience and better debugging.
 
 5.Technologies Used 
 Java 21 
