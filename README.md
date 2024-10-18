@@ -74,7 +74,7 @@ Maven
 MySQL
 
 
-# Setup and Installation 
+## Setup and Installation 
 
 # Clone the repository:
 
