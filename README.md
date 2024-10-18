@@ -74,7 +74,7 @@ Maven
 MySQL
 
 
-## Setup and Installation 
+# Setup and Installation 
 
 # Clone the repository:
 
@@ -88,7 +88,7 @@ mvn clean install
 Run the application:
 mvn spring-boot:run
  
-## Access the API: The application will be running at http://localhost:8080. You can use tools like Postman or cURL to test the endpoints.
+# Access the API: The application will be running at http://localhost:8080. You can use tools like Postman or cURL to test the endpoints.
 
 ## API Documentation
 
