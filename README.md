@@ -1,12 +1,12 @@
-AST Rule Engine
+### AST Rule Engine
 
-Overview 
+## Overview 
 
 The Rule Engine is a flexible and scalable application designed to create, evaluate, and combine rules for determining user eligibility based on various attributes. Built with Spring Boot, it provides a RESTful API that allows users to manage rules effectively.
 
-Features
+## Features
 
-1.Create Rules
+# 1.Create Rules
 
 Endpoint: /rules/create 
 
@@ -16,7 +16,7 @@ Description: Users can create new rules by providing necessary attributes and co
 
 Request Body: JSON object with rule details (e.g., name, conditions). Response: Confirmation message with the created rule ID.
 
-2.Evaluate Rules 
+# 2.Evaluate Rules 
 
 Endpoint: /rules/evaluate 
 
@@ -28,7 +28,7 @@ Request Body: JSON object with user attributes to evaluate against the existing 
 
 Response: Indicates whether the user is eligible and lists matched rules.
 
-3.Combine Rules 
+# 3.Combine Rules 
 
 Endpoint: /rules/combine 
 
@@ -40,7 +40,7 @@ Request Body: JSON object with the rules to be combined and the logic for combin
 
 Response: Confirmation message with the combined rule ID.
 
-4.Additional Features
+# 4.Additional Features
 
 Dynamic Rule Management: Modify existing rules without downtime. 
 
@@ -50,7 +50,7 @@ Logging: Comprehensive logging for actions taken within the application, aiding 
 
 Exception Handling: The application includes a robust exception handling mechanism to gracefully manage errors and provide meaningful messages to users. This ensures a smoother user experience and better debugging.
 
-5.Technologies Used 
+# 5.Technologies Used 
 
 Java 21 
 
@@ -65,7 +65,7 @@ MySQL Database (for development)
 Lombok (for reducing boilerplate code)
 
 
-6.Prerequisites
+# 6.Prerequisites
 
 Java 17
 
@@ -74,9 +74,9 @@ Maven
 MySQL
 
 
-Setup and Installation 
+## Setup and Installation 
 
-Clone the repository:
+# Clone the repository:
 
 git clone <repository-url>
 cd rule-engine
@@ -88,9 +88,9 @@ mvn clean install
 Run the application:
 mvn spring-boot:run
  
-Access the API: The application will be running at http://localhost:8080. You can use tools like Postman or cURL to test the endpoints.
+## Access the API: The application will be running at http://localhost:8080. You can use tools like Postman or cURL to test the endpoints.
 
-API Documentation
+## API Documentation
 
 Create a Rule Request: http 
 
