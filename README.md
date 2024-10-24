@@ -102,16 +102,12 @@ Content-Type: application/json
 
 {
 
-    "name": "AgeRule",
-    
-    "conditions": {
-        "attribute": "age",
-        "operator": ">",
-        "value": "18"
-    }
+    "ruleString": "age > 18 AND income > 50000"
     
 }
 
+
+ 
 Response: json 
 
 {
